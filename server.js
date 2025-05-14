@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(cors())
 
 // MongoDB connection   
-mongoose.connect('mongodb+srv://ciilanesalaad482561:OdIcsaF5j7L6zxBy@taskflow.qfopp6h.mongodb.net/?retryWrites=true&w=majority&appName=taskflow/TasksFlow').then(()=>{
+mongoose.connect('mongodb+srv://ciilanesalaad482561:noA9EIcGXjLH6eMw@taskflow.qfopp6h.mongodb.net/?retryWrites=true&w=majority&appName=taskflow/TasksFlow').then(()=>{
 // mongoose.connect('mongodb://localhost:27017/TasksFlow').then(()=>{
     console.log("MongoDB connected")
 }).catch((err)=>{
