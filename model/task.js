@@ -15,6 +15,7 @@ const taskSchema = new mongoose.Schema({
     default: "To Do", // default value
     enum: ["To Do", "In Progress", "Done"] // only allow these
   },
+    userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true }, // Reference to the user
   createdAt: {
     type: Date,
     default: Date.now
