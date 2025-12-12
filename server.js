@@ -15,7 +15,7 @@ const Task = require('./model/task');
 const User = require('./model/register');
 
 // config
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/TasksFlow';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://ciilanesalaad482561:8O4o8F5zxDwrFTnL@taskflow.qfopp6h.mongodb.net/?appName=taskflow';
 const JWT_SECRET = process.env.JWT_SECRET || 'your_fallback_jwt_secret';
 const PORT = process.env.PORT || 5000;
 
